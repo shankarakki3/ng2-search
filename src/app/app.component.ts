@@ -1,0 +1,12 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'ng2-search';
+  items = ["Kyle", "Eric", "Bailey", "Deborah", "Glenn", "Jaco", "Joni", "Gigi"]
+  term: string;
+}
